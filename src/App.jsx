@@ -41,7 +41,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>{hour}:{minute}:{second}:{miliSecond}</h1>
+        <h1 className="time">{hour}:{minute}:{second}:{miliSecond}</h1>
         <div>
           <button onClick={count}>{start? "STOP" : (time === 0)? "START" : "CONTINUE"}</button>
           <button onClick={reset}>RESET</button>

@@ -1,3 +1,11 @@
+.disable-textselect,.App {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+}
+
 .App {
   text-align: center;
 }
@@ -41,10 +49,12 @@ button {
   color: #282c34;
   font-weight: bolder;
   margin: 20px;
-  width: 150px;
-  height: 50px;
+  width: 170px;
+  height: 60px;
   font-size: calc(10px + 2vmin);
   cursor: pointer;
+  border-radius: 15px;
+  border: none;
 }
 
 .time{
